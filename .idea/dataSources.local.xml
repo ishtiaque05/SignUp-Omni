@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - @localhost" uuid="bd4194ba-16af-4869-8b8a-a15e292b0fc5">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="MySQL - SignUp_development@localhost" uuid="e0514c40-7653-4e30-aa95-352b55b6bd4a">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>SignUp_development.*</schema-pattern>
+      <default-schemas>SignUp_development.*</default-schemas>
+    </data-source>
+  </component>
+</project>

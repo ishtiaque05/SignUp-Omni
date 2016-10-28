@@ -1,0 +1,19 @@
+current directory: /home/ishtiaque/Projects/SignUp/vendor/cache/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+/home/ishtiaque/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20161028-29774-9vb17k.rb extconf.rb
+creating Makefile
+
+current directory: /home/ishtiaque/Projects/SignUp/vendor/cache/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/ishtiaque/Projects/SignUp/vendor/cache/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling context.c
+compiling threads.c
+compiling byebug.c
+compiling locker.c
+compiling breakpoint.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/ishtiaque/Projects/SignUp/vendor/cache/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20161028-29774-k01i4q/byebug
