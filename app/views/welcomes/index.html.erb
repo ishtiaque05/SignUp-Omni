@@ -1,1 +1,4 @@
-<h1>Hello World!</h1>
+<% if user_signed_in? %>
+<h1>Hello World! <%= current_user.email %></h1>
+ <%= link_to 'logout',  destroy_user_session_path , :method => :delete%>
+<% end %>
