@@ -23,7 +23,7 @@ require 'capistrano/rails'
 # require 'capistrano/bundler'
 # require 'capistrano/rails/assets'
 # require 'capistrano/rails/migrations'
-require 'capistrano/passenger'
+# require 'capistrano/passenger'
 
 set :rbenv_type, :user
 set :rbenv_ruby, '2.3.1'

@@ -2,9 +2,9 @@
 lock '3.6.1'
 
 set :application, 'SignUp'
-set :repo_url, 'git@example.com:ishtiaque05/SignUp-Omni.git'
+set :repo_url, 'git@github.com:ishtiaque05/SignUp-Omni.git'
 
-# Default branch is :master
+# Default branch :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 set :linked_files, %w{config/database.yml config/secrets.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
